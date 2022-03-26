@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T22:47:20.069Z" agent="5.0 (X11)" etag="ylIoxg7WeE-LhIznZyAY" version="17.2.4" type="github"><diagram id="OAc4Ez-2dxq1t8rJQaTQ" name="Page-1">7VrbcuI4EP0aHnH5gsE8BhL2MtmpVFG7s/uUErYwSmTLI4uA9+u3hWV8kcGEhDBbE6qwrVZLsk4fdUsNPWcabX/hKFn9wQJMe7YZbHvObc+Gz8CDm5RkuWTkWrkg5CTIRRXBnPyLldBU0jUJcFpTFIxRQZK60GdxjH1RkyHO2aautmS0PmqCQqwJ5j6iuvQbCcQql3quWcp/xSRcFSNbpqqJUKGsBOkKBWxTETl3PWfKGRP5U7SdYirBK3DJ280O1O5fjONYnNIgC+0/yZcv38X3IDZHz4/o6zTrW27ezQuiazVj9bYiKyAIOVsnSg1zgbdtwKNFoW7qL2btpws8wSzCgmegojrqO45qozhieaq8KRG3rIIRqwrcg4ESImXmcN97iQQ8KDBeA0w3LgBLHGDZidlzJpsVEXieIF/WbmAxgGwlIhj01oLHJaF0yijjUI5ZDEqTg5BWoTtitYOAjl3D9HQETWtgjO0WEM2Lgeh9BLvOg6hBObeNcp7heOPKR8du3+79sXO6sQOXkshHEu282GR3v0mT3BFKVqKisCRbSdWJxJiAe7tHC0wfWEoEYTHUL5gQLKoo3FASygrBJJOXLBYzFBEq8ZqyaMm4QEhVzNma72i/EgLcsu06N3CB2cuLVEiNkLGQYpSQ1PBhGFnhpzvV2TLvFh71jvNwYLvtC0hNWw0rB4UhZ+uEMhQYG/JMIhwQZDAegliWE1mGZ3iFiMUw/Eys1tEC7o78Sovdk8X6xUhfZBPLNs1k29+LjCQO37ZuvXZSNknXRjT7YkQbaESjcsYa22C6ou7UUsHZM25YpcVQSHHJB3gwbyFZRIJADtPqRet+9vpMfH/7F7ulcd0n2bpPGrYEQedizBhrzPgKGzzjCeAyFyQOSBymnzR5f5ocj12e1YhdY/fKPBlpJMAB7KJVEQBasZDFiN6V0oa5Sp17JgPOjjdPWIhMQYrWgjV2VFe3cCoQFzfykNHc1Mnpn2NzwLB48a5FCWOH+GiPTjuLOKZIkJf6+7VxYtcUpoeyikLCCIBX6flBCirkHNTJWRzkZufpw0P+BiU791M5n7DDI37t5uE33aelGxJRlPutq9Pu3KPE8VPYuGGHsR58HNPVvYp9sdPDSLPSUrfM6w5h/1vbHabxQYM2DtWOHiTaj9TuhcypnwUl0J8GPdmg1vAHs6i+PUxk0uvTomcuUcu8tkWLwSom9XmWwNbr06jnLtMfwKonJDMvnuS1Rt0bjH02rZb58C61wbC7YfnADNvl81tLuPzlPf6OXtDc5yQRjzgOSYwfKRy9Hu161qtD8e25sAN86aTDxTKueh6sBADkdzsINIZ8pjvenO447jkaB8S2TP3HZjt0L/FTZDvAiDz7W81gV/hHFoyy8nZbrb3NVKnXnRJRos7kh4K+M/dxIEKfnPp4E0HO+OGmM2ZQWTFB/nO4Y1LhSQK8RGsqDgYVLTjp8as9yPhBbCw5xguC03WS0CxnzUwGABlXqLQA3O0tXGIW4Ke0b/VlbR8CQ19wFKe5gV8TKDq2ELbXcAWDli3EoPzxs+oOvPGlNhH6lvln9Q/B63Ohpy784YkLP8+OvjXpqWUpnSLFXhy9x43okk9AtTqS7hza5vGO8hlqHR1Ow9bIezQ3CsXy3ya5evmfHefuPw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-26T22:50:28.088Z" agent="5.0 (X11)" etag="J4E_-a6JXhYhN5IpBAsI" version="17.2.4" type="github">
+  <diagram id="OAc4Ez-2dxq1t8rJQaTQ" name="Node.js runtime">
+    <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-15" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-320" y="120" width="1680" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
+          <mxGeometry x="143.90486486486486" width="1536.0951351351355" height="525" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-19" value="Node.js bindings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
+          <mxGeometry x="840.003945945946" y="250.30750000000003" width="90.81081081081082" height="39.375" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;startArrow=none;" parent="yg2UiKKqtqdn07k_aNCy-15" source="yg2UiKKqtqdn07k_aNCy-19" target="yg2UiKKqtqdn07k_aNCy-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1271.3513513513515" y="275.625" />
+              <mxPoint x="1271.3513513513515" y="275.625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74c8RebSrg2uGwLzsftT-2" value="Node.js bindings help you to write JavaScript but run C++ behind the scene" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yg2UiKKqtqdn07k_aNCy-15">
+          <mxGeometry x="740" y="20" width="460" height="131.25" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
+          <mxGeometry x="42" y="-46.66666666666667" width="163.215" height="100.125" as="geometry" />
+        </mxCell>
+        <mxCell id="74c8RebSrg2uGwLzsftT-3" value="libuv help you to write the same code on different OS (because different OS have different way to read file system)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yg2UiKKqtqdn07k_aNCy-15">
+          <mxGeometry x="1310" y="203.75" width="350" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-18" value="" style="group" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1" connectable="0">
+          <mxGeometry x="1149.9987267267265" y="189.995" width="179.18486486486483" height="196.875" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-13" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=none;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Libuv.svg/1200px-Libuv.svg.png;" parent="yg2UiKKqtqdn07k_aNCy-18" vertex="1">
+          <mxGeometry width="143.98783783783784" height="145.94594594594597" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-14" value="libuv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="yg2UiKKqtqdn07k_aNCy-18" vertex="1">
+          <mxGeometry x="43.891891891891895" y="157.5" width="90.81081081081082" height="39.375" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-6" value="Node.js APIs" style="swimlane;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="290" width="305" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-7" value="fs" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=none;" parent="yg2UiKKqtqdn07k_aNCy-6" vertex="1">
+          <mxGeometry x="30" y="35" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-8" value="http" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=none;" parent="yg2UiKKqtqdn07k_aNCy-6" vertex="1">
+          <mxGeometry x="160" y="35" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-9" value="path" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=none;" parent="yg2UiKKqtqdn07k_aNCy-6" vertex="1">
+          <mxGeometry x="30" y="105" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-10" value="crypto" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=none;" parent="yg2UiKKqtqdn07k_aNCy-6" vertex="1">
+          <mxGeometry x="160" y="105" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-11" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-170" y="290" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-2" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fillColor=none;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V8_JavaScript_engine_logo_2.svg/1200px-V8_JavaScript_engine_logo_2.svg.png;" parent="yg2UiKKqtqdn07k_aNCy-11" vertex="1">
+          <mxGeometry width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-4" value="JavaScript Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="yg2UiKKqtqdn07k_aNCy-11" vertex="1">
+          <mxGeometry x="40" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="yg2UiKKqtqdn07k_aNCy-2" target="yg2UiKKqtqdn07k_aNCy-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;endArrow=none;" parent="1" source="yg2UiKKqtqdn07k_aNCy-6" target="yg2UiKKqtqdn07k_aNCy-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="390" as="sourcePoint" />
+            <mxPoint x="620" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="390" />
+              <mxPoint x="550" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
