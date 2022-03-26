@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T05:14:14.855Z" agent="5.0 (X11)" etag="GrrMlgzBIl2vhDJfl2EJ" version="17.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-26T05:17:24.799Z" agent="5.0 (X11)" etag="WC5YbubJhrV6qrW1P-L9" version="17.2.3" type="github" pages="2">
   <diagram id="y6zHq6lQ_J3xSZg7M48z" name="Introduction">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,6 +44,25 @@
         </mxCell>
         <mxCell id="bZ-jrlqmVhZ8fIApHqn_-11" value="Run JavaScript in console mode (just like DevTool on the Browser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=2" vertex="1" parent="YgIP1oCt232m2JHOr8eo-1">
           <mxGeometry x="455" y="140" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kN2Vg4NoAx0qoAxdBXob-0" value="The loop will continue unless you press Ctrl+C to quit the REPL mode" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YgIP1oCt232m2JHOr8eo-1">
+          <mxGeometry x="445" y="720" width="505" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kN2Vg4NoAx0qoAxdBXob-1" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="YgIP1oCt232m2JHOr8eo-1" target="bZ-jrlqmVhZ8fIApHqn_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="660" as="sourcePoint" />
+            <mxPoint x="480" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="660" />
+              <mxPoint x="510" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kN2Vg4NoAx0qoAxdBXob-2" value="You will lose everything when you quit REPL mode" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="YgIP1oCt232m2JHOr8eo-1">
+          <mxGeometry x="490" y="890" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kN2Vg4NoAx0qoAxdBXob-3" value="We should just use REPL mode to test small thing not to write program" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fontStyle=2" vertex="1" parent="YgIP1oCt232m2JHOr8eo-1">
+          <mxGeometry x="440" y="1030" width="510" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
