@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T05:17:24.799Z" agent="5.0 (X11)" etag="WC5YbubJhrV6qrW1P-L9" version="17.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-26T06:28:25.288Z" agent="5.0 (X11)" etag="btj6j9ABFHdbELBWX09I" version="17.2.3" type="github" pages="3">
   <diagram id="y6zHq6lQ_J3xSZg7M48z" name="Introduction">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,8 +61,46 @@
         <mxCell id="kN2Vg4NoAx0qoAxdBXob-2" value="You will lose everything when you quit REPL mode" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="YgIP1oCt232m2JHOr8eo-1">
           <mxGeometry x="490" y="890" width="410" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="kN2Vg4NoAx0qoAxdBXob-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;" edge="1" parent="YgIP1oCt232m2JHOr8eo-1" source="kN2Vg4NoAx0qoAxdBXob-3" target="kN2Vg4NoAx0qoAxdBXob-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kN2Vg4NoAx0qoAxdBXob-3" value="We should just use REPL mode to test small thing not to write program" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fontStyle=2" vertex="1" parent="YgIP1oCt232m2JHOr8eo-1">
           <mxGeometry x="440" y="1030" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kN2Vg4NoAx0qoAxdBXob-4" value="To open REPL mode, open terminal and type &amp;gt;node" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=none;" vertex="1" parent="YgIP1oCt232m2JHOr8eo-1">
+          <mxGeometry x="60" y="430" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kN2Vg4NoAx0qoAxdBXob-5" value="node file.js" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=none;" vertex="1" parent="YgIP1oCt232m2JHOr8eo-1">
+          <mxGeometry x="1150" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kN2Vg4NoAx0qoAxdBXob-7" value="We should write node in JavaScript file and provide it to node like this" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fontStyle=2" vertex="1" parent="YgIP1oCt232m2JHOr8eo-1">
+          <mxGeometry x="1000" y="1050" width="390" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ns5i2DY6tKjVQl1pWXUK" name="API">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G2ADQmpWI5vjTmXukRIW-2" value="Browser (window)" style="swimlane;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="490" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="G2ADQmpWI5vjTmXukRIW-5" value="document" style="whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=none;" vertex="1" parent="G2ADQmpWI5vjTmXukRIW-2">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2ADQmpWI5vjTmXukRIW-6" value="alert" style="whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=none;" vertex="1" parent="G2ADQmpWI5vjTmXukRIW-2">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2ADQmpWI5vjTmXukRIW-7" value="Node (global)" style="swimlane;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="490" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="G2ADQmpWI5vjTmXukRIW-8" value="process" style="whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=none;" vertex="1" parent="G2ADQmpWI5vjTmXukRIW-7">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2ADQmpWI5vjTmXukRIW-9" value="alert" style="whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=none;" vertex="1" parent="G2ADQmpWI5vjTmXukRIW-7">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
