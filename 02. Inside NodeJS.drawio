@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T11:50:05.218Z" agent="5.0 (X11)" etag="NPiNjxxr_3v-RjbTSFhZ" version="17.2.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-27T11:57:20.453Z" agent="5.0 (X11)" etag="8JPHxluLUywSvRp1JSYc" version="17.2.4" type="github" pages="6">
   <diagram id="OAc4Ez-2dxq1t8rJQaTQ" name="Node.js runtime">
     <mxGraphModel dx="2598" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -180,7 +180,10 @@
         <mxCell id="Ez1KzpxHkw0W1O06Dw-A-8" value="network" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Ez1KzpxHkw0W1O06Dw-A-7">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="Ez1KzpxHkw0W1O06Dw-A-7" source="Ez1KzpxHkw0W1O06Dw-A-11" target="Ez1KzpxHkw0W1O06Dw-A-13">
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=18;" edge="1" parent="Ez1KzpxHkw0W1O06Dw-A-7" source="Ez1KzpxHkw0W1O06Dw-A-11" target="Ez1KzpxHkw0W1O06Dw-A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=18;dashed=1;" edge="1" parent="Ez1KzpxHkw0W1O06Dw-A-7" source="Ez1KzpxHkw0W1O06Dw-A-11" target="Ez1KzpxHkw0W1O06Dw-A-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ez1KzpxHkw0W1O06Dw-A-11" value="file system" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Ez1KzpxHkw0W1O06Dw-A-7">
@@ -197,6 +200,12 @@
         </mxCell>
         <mxCell id="Ez1KzpxHkw0W1O06Dw-A-17" value="Detail: Advanced JavaScript -&amp;gt; 15. Asynchronous JavaScript.drawio -&amp;gt; Concurrency &amp;amp;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Parallelism&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=18;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="660" y="490" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-21" value="libuv when occur network and fs task will uses the OS Kernel which have multiple thread" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1060" width="410" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-22" value="Very few OS that libuv will use the Thread Pool because Node try so hard to avoid Thread since it complex" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1050" width="410" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
