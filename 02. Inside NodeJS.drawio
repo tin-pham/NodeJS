@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T11:26:13.950Z" agent="5.0 (X11)" etag="ktr2nuO9_UXHFeo9F-ji" version="17.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-27T11:34:47.174Z" agent="5.0 (X11)" etag="MZ_a-Z-wK3LKkwcbbo02" version="17.2.4" type="github" pages="6">
   <diagram id="OAc4Ez-2dxq1t8rJQaTQ" name="Node.js runtime">
     <mxGraphModel dx="2598" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -128,16 +128,78 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bei77BFvAhtHUWod_t_5" name="Multi-Threaded">
-    <mxGraphModel dx="964" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2495" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gtTMlfzbp1lxzcZjW1Qw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="640" width="970" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="sNtf9839DS_s4BbCP3xr-1" value="Multi Threaded " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="200" y="240" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sNtf9839DS_s4BbCP3xr-2" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="200" y="430" width="60" height="30" as="geometry" />
+        <mxCell id="bGkGVPnA9V97J4zLY0ro-2" value="JavaScript is Single Threaded" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry y="360" width="400" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="bGkGVPnA9V97J4zLY0ro-3" value="What actually can run in another thread is API provide by Web and Node which is written in C/C++ and can handle async task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="-70" y="480" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gtTMlfzbp1lxzcZjW1Qw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;startArrow=none;" edge="1" parent="1" source="bGkGVPnA9V97J4zLY0ro-5" target="gtTMlfzbp1lxzcZjW1Qw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGkGVPnA9V97J4zLY0ro-4" value="API async task" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="760" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGkGVPnA9V97J4zLY0ro-5" value="When you call provided async task of Node API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="790" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gtTMlfzbp1lxzcZjW1Qw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;endArrow=none;" edge="1" parent="1" source="bGkGVPnA9V97J4zLY0ro-4" target="bGkGVPnA9V97J4zLY0ro-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-600" y="790.0000000000002" as="sourcePoint" />
+            <mxPoint x="-160" y="820.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-2" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=none;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Libuv.svg/1200px-Libuv.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="-213.99127327327346" y="574.0550000000001" width="143.98783783783784" height="145.94594594594597" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-60" y="680" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gtTMlfzbp1lxzcZjW1Qw-2" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;image=https://d30y9cdsu7xlg0.cloudfront.net/png/4994-200.png;" vertex="1" parent="Ez1KzpxHkw0W1O06Dw-A-5">
+          <mxGeometry width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-4" value="Event Loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Ez1KzpxHkw0W1O06Dw-A-5">
+          <mxGeometry x="70" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-7" value="Async I/O" style="swimlane;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="200" y="670" width="450" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="Ez1KzpxHkw0W1O06Dw-A-7" source="Ez1KzpxHkw0W1O06Dw-A-8" target="Ez1KzpxHkw0W1O06Dw-A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-8" value="network" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Ez1KzpxHkw0W1O06Dw-A-7">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="Ez1KzpxHkw0W1O06Dw-A-7" source="Ez1KzpxHkw0W1O06Dw-A-11" target="Ez1KzpxHkw0W1O06Dw-A-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-11" value="file system" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Ez1KzpxHkw0W1O06Dw-A-7">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-12" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Ez1KzpxHkw0W1O06Dw-A-7">
+          <mxGeometry x="300" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez1KzpxHkw0W1O06Dw-A-13" value="Thread Pool" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="Ez1KzpxHkw0W1O06Dw-A-7">
+          <mxGeometry x="300" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="auNMwHPuiphaWf9W52B8" name="Page-6">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
