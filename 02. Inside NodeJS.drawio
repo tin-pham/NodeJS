@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T00:47:09.942Z" agent="5.0 (X11)" etag="BOewseu2FqkjA0tDtY1w" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T04:59:03.444Z" agent="5.0 (X11)" etag="7czP6vxNv3K_Kowx78aQ" version="17.2.4" type="github" pages="2">
   <diagram id="OAc4Ez-2dxq1t8rJQaTQ" name="Node.js runtime">
-    <mxGraphModel dx="2181" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,13 +21,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="74c8RebSrg2uGwLzsftT-2" value="Node.js bindings help you to write JavaScript but run C++ behind the scene" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yg2UiKKqtqdn07k_aNCy-15">
+        <mxCell id="74c8RebSrg2uGwLzsftT-2" value="Node.js bindings help you to write JavaScript but run C++ behind the scene" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
           <mxGeometry x="740" y="20" width="460" height="131.25" as="geometry" />
         </mxCell>
         <mxCell id="yg2UiKKqtqdn07k_aNCy-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
           <mxGeometry x="42" y="-46.66666666666667" width="163.215" height="100.125" as="geometry" />
         </mxCell>
-        <mxCell id="74c8RebSrg2uGwLzsftT-3" value="libuv help you to write the same code on different OS (because different OS have different way to read file system)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yg2UiKKqtqdn07k_aNCy-15">
+        <mxCell id="74c8RebSrg2uGwLzsftT-3" value="libuv help you to write the same code on different OS (because different OS have different way to read file system)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
           <mxGeometry x="1310" y="203.75" width="350" height="117.5" as="geometry" />
         </mxCell>
         <mxCell id="yg2UiKKqtqdn07k_aNCy-18" value="" style="group" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1" connectable="0">
@@ -75,6 +75,20 @@
               <mxPoint x="550" y="390" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8QC-vOUF8IWb6G2CFD-z" name="Sync vs. Async">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k5Lb517Owgz2PKPVbbJE-1" value="Open 03. Single Threaded.drawio in AdvancedJavaScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="780" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k5Lb517Owgz2PKPVbbJE-2" value="Sync vs Async" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="375" y="400" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
