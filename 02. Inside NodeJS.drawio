@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T11:17:08.686Z" agent="5.0 (X11)" etag="qim8uhTExbGzj_mCJKzE" version="17.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-27T11:26:13.950Z" agent="5.0 (X11)" etag="ktr2nuO9_UXHFeo9F-ji" version="17.2.4" type="github" pages="5">
   <diagram id="OAc4Ez-2dxq1t8rJQaTQ" name="Node.js runtime">
-    <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2598" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yg2UiKKqtqdn07k_aNCy-15" value="" style="group" parent="1" vertex="1" connectable="0">
+        <mxCell id="yg2UiKKqtqdn07k_aNCy-15" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-310" y="120" width="1680" height="630" as="geometry" />
         </mxCell>
         <mxCell id="yg2UiKKqtqdn07k_aNCy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
@@ -21,13 +21,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="74c8RebSrg2uGwLzsftT-2" value="Node.js bindings help you to write JavaScript but run C++ behind the scene" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
+        <mxCell id="74c8RebSrg2uGwLzsftT-2" value="Node.js bindings help you to write JavaScript but run C++ behind the scene, to call libuv method which run C" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
           <mxGeometry x="740" y="20" width="460" height="131.25" as="geometry" />
         </mxCell>
         <mxCell id="yg2UiKKqtqdn07k_aNCy-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
           <mxGeometry x="42" y="-46.66666666666667" width="163.215" height="100.125" as="geometry" />
         </mxCell>
-        <mxCell id="74c8RebSrg2uGwLzsftT-3" value="libuv help you to write the same code on different OS (because different OS have different way to read file system)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
+        <mxCell id="74c8RebSrg2uGwLzsftT-3" value="libuv help you write JavaScript and thanks for Node binding it will run C " style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1">
           <mxGeometry x="1310" y="203.75" width="350" height="117.5" as="geometry" />
         </mxCell>
         <mxCell id="yg2UiKKqtqdn07k_aNCy-18" value="" style="group" parent="yg2UiKKqtqdn07k_aNCy-15" vertex="1" connectable="0">
@@ -93,6 +93,20 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="perXBsWFFqQCcqEAyL-H" name="Process">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vZmOLF_AjoPbEQj5h-5K-1" value="Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="375" y="390" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZmOLF_AjoPbEQj5h-5K-2" value="Open 03. Single Threaded.drawio in AdvancedJavaScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="780" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="NZAaKsyEAJwZi_D2chz7" name="Single Threaded">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -103,6 +117,26 @@
         </mxCell>
         <mxCell id="2ZewhqEcFajgxQ2-xiQz-2" value="Single Threaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="375" y="390" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AgFpoj_BKupFhSpgYgWJ-1" value="Single Threaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="375" y="390" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AgFpoj_BKupFhSpgYgWJ-2" value="Open 03. Single Threaded.drawio in AdvancedJavaScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="780" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bei77BFvAhtHUWod_t_5" name="Multi-Threaded">
+    <mxGraphModel dx="964" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sNtf9839DS_s4BbCP3xr-1" value="Multi Threaded " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sNtf9839DS_s4BbCP3xr-2" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
