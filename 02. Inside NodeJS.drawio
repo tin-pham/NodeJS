@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T05:36:13.806Z" agent="5.0 (X11)" etag="4drVW4J2zNUP5SDJTFMK" version="17.2.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-28T05:41:02.555Z" agent="5.0 (X11)" etag="ZYEDolLD2XipDQYbDq27" version="17.2.4" type="github" pages="7">
   <diagram id="OAc4Ez-2dxq1t8rJQaTQ" name="Node.js runtime">
     <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -98,10 +98,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vZmOLF_AjoPbEQj5h-5K-1" value="Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="vZmOLF_AjoPbEQj5h-5K-1" value="Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="375" y="390" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vZmOLF_AjoPbEQj5h-5K-2" value="Open 03. Single Threaded.drawio in AdvancedJavaScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="vZmOLF_AjoPbEQj5h-5K-2" value="Open 03. Single Threaded.drawio in AdvancedJavaScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="140" y="420" width="780" height="80" as="geometry" />
         </mxCell>
       </root>
@@ -209,6 +209,36 @@
         </mxCell>
         <mxCell id="Ez1KzpxHkw0W1O06Dw-A-23" value="When OS done the async task, it will receive the signal and run the CallBack function" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="730" y="1040" width="410" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="erdijaIJuGLMM9cFVI8n-3" target="erdijaIJuGLMM9cFVI8n-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="erdijaIJuGLMM9cFVI8n-3" target="erdijaIJuGLMM9cFVI8n-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icon-library.com/images/cpu-icon.png;" vertex="1" parent="1">
+          <mxGeometry x="670" y="650" width="166" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/969/969356.png;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="540" width="162" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/173/173697.png;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="790" width="134" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-6" value="Network task" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-7" value="CPU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="723" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-8" value="Network Card" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="690" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-9" value="Hard drive" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="930" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="erdijaIJuGLMM9cFVI8n-10" value="Open file task" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="827" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
