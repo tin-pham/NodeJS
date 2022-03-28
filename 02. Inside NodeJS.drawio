@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T22:13:33.423Z" agent="5.0 (X11)" etag="dWI-aN5jzyk6VtzL8ned" version="17.2.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-28T02:44:48.127Z" agent="5.0 (X11)" etag="x82iJIhQ2kLX-hrZc9s_" version="17.2.4" type="github" pages="6">
   <diagram id="OAc4Ez-2dxq1t8rJQaTQ" name="Node.js runtime">
     <mxGraphModel dx="2272" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -112,23 +112,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2ZewhqEcFajgxQ2-xiQz-1" value="Open 03. Single Threaded.drawio in AdvancedJavaScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="2ZewhqEcFajgxQ2-xiQz-1" value="Open 03. Single Threaded.drawio in AdvancedJavaScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="140" y="420" width="780" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2ZewhqEcFajgxQ2-xiQz-2" value="Single Threaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="2ZewhqEcFajgxQ2-xiQz-2" value="Single Threaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="375" y="390" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AgFpoj_BKupFhSpgYgWJ-1" value="Single Threaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="AgFpoj_BKupFhSpgYgWJ-1" value="Single Threaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="375" y="390" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AgFpoj_BKupFhSpgYgWJ-2" value="Open 03. Single Threaded.drawio in AdvancedJavaScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="AgFpoj_BKupFhSpgYgWJ-2" value="Open 03. Single Threaded.drawio in AdvancedJavaScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="140" y="420" width="780" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="bei77BFvAhtHUWod_t_5" name="Multi-Threaded">
-    <mxGraphModel dx="2272" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,7 +214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="auNMwHPuiphaWf9W52B8" name="Event Loop">
-    <mxGraphModel dx="2272" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -236,8 +236,47 @@
         <mxCell id="j8YWeGfztibG9kyU4kE--3" value="Event Loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="j8YWeGfztibG9kyU4kE--1">
           <mxGeometry x="70" y="220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j8YWeGfztibG9kyU4kE--4" value="It will check again and again, waiting to process if your Callback ready to run" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="185" y="640" width="480" height="50" as="geometry" />
+        <mxCell id="j8YWeGfztibG9kyU4kE--4" value="It will check again and again, waiting to process if your Callback ready to run and if so it will put that to the &lt;i&gt;&lt;b&gt;Callback Queue (Advanced JS -&amp;gt; Asynchronous&lt;/b&gt;&lt;/i&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="185" y="690" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rBKZ61ZttBZkgPM2zBwY-1" value="Phases of Event Loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1110" y="260" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rBKZ61ZttBZkgPM2zBwY-2" value="Timers" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="970" y="420" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBKZ61ZttBZkgPM2zBwY-3" value="I/O callbacks" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="970" y="500" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBKZ61ZttBZkgPM2zBwY-4" value="setImmediate" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="970" y="580" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBKZ61ZttBZkgPM2zBwY-5" value="Close Callbacks" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="970" y="670" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBKZ61ZttBZkgPM2zBwY-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1230" y="440" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="rBKZ61ZttBZkgPM2zBwY-7" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;image=https://d30y9cdsu7xlg0.cloudfront.net/png/4994-200.png;" vertex="1" parent="rBKZ61ZttBZkgPM2zBwY-6">
+          <mxGeometry width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rBKZ61ZttBZkgPM2zBwY-8" value="Event Loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="rBKZ61ZttBZkgPM2zBwY-6">
+          <mxGeometry x="70" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rBKZ61ZttBZkgPM2zBwY-9" value="Each phase have their own Callback Queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="1250" y="320" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C0asfWcRKdNwrrb6SPAv-1" value="setTimeout, setInterval" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="420" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0asfWcRKdNwrrb6SPAv-2" value="Network task, File System task, other task that not fit in other phase" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="500" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0asfWcRKdNwrrb6SPAv-3" value="setImmediate " style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="580" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0asfWcRKdNwrrb6SPAv-4" value="Close the file / network connection" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="660" width="550" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
