@@ -1,11 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T09:54:10.051Z" agent="5.0 (X11)" etag="Wgw1klHyYewDNYDXt37Z" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T11:58:52.613Z" agent="5.0 (X11)" etag="oOLPYIc_TRjb300159SB" version="17.2.4" type="github" pages="2">
   <diagram id="rTPAs0cEGp7kzSuOPIig" name="Introduction">
-    <mxGraphModel dx="1398" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rLHzpwrOnUkorcq7nVOK-2" value="You don&#39;t need to know how to create &#39;http&#39; to create &#39;http&#39; request, don&#39;t reinvented the wheel" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="200" y="320" width="490" height="130" as="geometry" />
+        <mxCell id="rLHzpwrOnUkorcq7nVOK-2" value="You don&#39;t need to know how to create &#39;http&#39; to create &#39;http&#39; request, don&#39;t reinvented the wheel" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="240" y="380" width="490" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AXC5xJq2BYWUXeA_MmRr" name="Why use Module">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VeDPKeGyrfzPKKxUaazl-1" value="Reuse existing code" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VeDPKeGyrfzPKKxUaazl-2" value="Organize your code" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VeDPKeGyrfzPKKxUaazl-3" value="Expose only what will be used" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
