@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T12:02:31.051Z" agent="5.0 (X11)" etag="QuIFvyza4eE3IcoW7ZWU" version="17.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-28T12:19:25.323Z" agent="5.0 (X11)" etag="CyeQvwIYK1wu2lvREIn2" version="17.2.4" type="github" pages="3">
   <diagram id="rTPAs0cEGp7kzSuOPIig" name="Introduction">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,6 +29,56 @@
         </mxCell>
         <mxCell id="VeDPKeGyrfzPKKxUaazl-5" value="We don&#39;t need to know how request and response deal with data" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="795" y="570" width="440" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Kzj-9aRzByC-CzVXaRBH" name="import &amp; export">
+    <mxGraphModel dx="1398" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="-150" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-2" value="Module is a global built-in object that related to current module" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=2" vertex="1" parent="s1bLA1Zfrb5BMm2utcPn-6">
+          <mxGeometry y="90" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-3" value="module" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;" vertex="1" parent="s1bLA1Zfrb5BMm2utcPn-6">
+          <mxGeometry x="150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-7" value="Export" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-8" value="Import" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="920" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="710" y="490" width="480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-12" value="require.extensions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;" vertex="1" parent="s1bLA1Zfrb5BMm2utcPn-14">
+          <mxGeometry x="70" width="345" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-13" value="Default extension that node is using if you not provide extension" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=2" vertex="1" parent="s1bLA1Zfrb5BMm2utcPn-14">
+          <mxGeometry y="80" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="710" y="220" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-5" value="require" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;" vertex="1" parent="s1bLA1Zfrb5BMm2utcPn-15">
+          <mxGeometry x="165" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-9" value="./ will look to current directory, if you not provide any thing before filename, it will look at the node_modules and node built-in module" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=2" vertex="1" parent="s1bLA1Zfrb5BMm2utcPn-15">
+          <mxGeometry y="120" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="230" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-1" value="module.exports" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;" vertex="1" parent="s1bLA1Zfrb5BMm2utcPn-16">
+          <mxGeometry x="90" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s1bLA1Zfrb5BMm2utcPn-4" value="exports is where we put function in and allow another module import " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=2" vertex="1" parent="s1bLA1Zfrb5BMm2utcPn-16">
+          <mxGeometry y="110" width="480" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
