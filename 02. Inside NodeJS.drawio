@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T05:41:02.555Z" agent="5.0 (X11)" etag="ZYEDolLD2XipDQYbDq27" version="17.2.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-28T05:44:36.858Z" agent="5.0 (X11)" etag="dUs3E5Ti1xd0FVQwdb6l" version="17.2.4" type="github" pages="8">
   <diagram id="OAc4Ez-2dxq1t8rJQaTQ" name="Node.js runtime">
     <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -345,6 +345,20 @@
             <mxGeometry x="340" y="610" width="550" height="110" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rMoyCkE-Hj2hyTrQ9Ibm" name="What node good at ">
+    <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8dzW0og5SB_5aMRA9Ptf-1" value="Node will not good at thing like 3D rendering and Machine Learning since it require a lot of CPU calculation, so it will stuck in the CPU and not handle that task to anywhere" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="270" width="530" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8dzW0og5SB_5aMRA9Ptf-2" value="Node is good at thing like I/O task (video streaming), web server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="530" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
