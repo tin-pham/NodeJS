@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T07:04:19.217Z" agent="5.0 (X11)" version="17.2.4" etag="yeU-ZcOrpzm9f-rVhDmn" type="github"><diagram id="1BECWVMC1xA9X7_K1km2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-29T10:09:39.296Z" agent="5.0 (X11)" etag="WDk5HNytLfJvrnmEPbtT" version="17.2.4" type="github" pages="3">
+  <diagram id="1BECWVMC1xA9X7_K1km2" name="What is package">
+    <mxGraphModel dx="2248" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="coeCYgBxdj0FRSoFujDV-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="coeCYgBxdj0FRSoFujDV-1" target="coeCYgBxdj0FRSoFujDV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coeCYgBxdj0FRSoFujDV-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="coeCYgBxdj0FRSoFujDV-1" target="coeCYgBxdj0FRSoFujDV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coeCYgBxdj0FRSoFujDV-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="coeCYgBxdj0FRSoFujDV-1" target="coeCYgBxdj0FRSoFujDV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coeCYgBxdj0FRSoFujDV-1" value="package" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coeCYgBxdj0FRSoFujDV-2" value="module" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coeCYgBxdj0FRSoFujDV-3" value="module" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coeCYgBxdj0FRSoFujDV-4" value="module" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5XCLqBNyzRxfGL9wqIE4" name="Why we need third party package">
+    <mxGraphModel dx="2248" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="yCQbob0Y3zCTW5ShWnC4-2" target="yCQbob0Y3zCTW5ShWnC4-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-2" value="Built-in module is not enough for building large application" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="70" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="yCQbob0Y3zCTW5ShWnC4-3" target="yCQbob0Y3zCTW5ShWnC4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-3" value="Third Party Package" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-4" value="Package of build and maintain&amp;nbsp; by other people" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="170" width="375" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-6" value="npmjs.com" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="840" y="90" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-7" value="A site that contain tons of package" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="825" y="170" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="yCQbob0Y3zCTW5ShWnC4-10" target="yCQbob0Y3zCTW5ShWnC4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-10" value="In order to install package" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="320" width="530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-11" value="Node Package Manager (NPM)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yCQbob0Y3zCTW5ShWnC4-13" value="It already install when you install node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="375" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="O1brZUf_tl3exuGyHVZZ" name="Install package">
+    <mxGraphModel dx="1398" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MDXrSO9ZxlVBBrWanXAU-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="MDXrSO9ZxlVBBrWanXAU-1" target="MDXrSO9ZxlVBBrWanXAU-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDXrSO9ZxlVBBrWanXAU-4" value="package.json" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="480" y="290" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MDXrSO9ZxlVBBrWanXAU-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="480" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MDXrSO9ZxlVBBrWanXAU-5" value="npm i axios" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="MDXrSO9ZxlVBBrWanXAU-7">
+          <mxGeometry x="5" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MDXrSO9ZxlVBBrWanXAU-6" value="Install a package" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="MDXrSO9ZxlVBBrWanXAU-7">
+          <mxGeometry y="70" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MDXrSO9ZxlVBBrWanXAU-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="95" y="290" width="410" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MDXrSO9ZxlVBBrWanXAU-1" value="npm init " style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="MDXrSO9ZxlVBBrWanXAU-8">
+          <mxGeometry x="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MDXrSO9ZxlVBBrWanXAU-2" value="Initialize a package track file " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="MDXrSO9ZxlVBBrWanXAU-8">
+          <mxGeometry y="70" width="410" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
