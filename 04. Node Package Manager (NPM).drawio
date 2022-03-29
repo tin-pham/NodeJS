@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T11:20:12.394Z" agent="5.0 (X11)" etag="1gcAM0YDHkn1wvpesF1n" version="17.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-29T11:30:46.952Z" agent="5.0 (X11)" etag="nCDGw5kzAMVB0VewPT-T" version="17.2.4" type="github" pages="6">
   <diagram id="1BECWVMC1xA9X7_K1km2" name="What is package">
     <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -180,6 +180,49 @@
         </mxCell>
         <mxCell id="m3S-YtO4LQZ0ImFecLNL-2" value="Add node_modules to .gitignore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;" vertex="1" parent="1">
           <mxGeometry x="425" y="1000" width="370" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qlkrx_F2CNEw5qLOJg2t" name="Sematic Versioning">
+    <mxGraphModel dx="1422" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ONRPRywMoTcGoixCnWw0-1" value="MAJOR.MINOR.PATCH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="https://semver.org/" link="https://semver.org/" id="ONRPRywMoTcGoixCnWw0-3">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=25;fontFamily=Comfortaa;" vertex="1" parent="1">
+            <mxGeometry x="330" y="370" width="270" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ONRPRywMoTcGoixCnWw0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="ONRPRywMoTcGoixCnWw0-4" target="ONRPRywMoTcGoixCnWw0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ONRPRywMoTcGoixCnWw0-4" value="MAJOR" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="140" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONRPRywMoTcGoixCnWw0-5" value="Make breaking change" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONRPRywMoTcGoixCnWw0-7" value="Add some functionality " style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="540" y="670" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONRPRywMoTcGoixCnWw0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="ONRPRywMoTcGoixCnWw0-8" target="ONRPRywMoTcGoixCnWw0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ONRPRywMoTcGoixCnWw0-8" value="MINOR" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="140" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONRPRywMoTcGoixCnWw0-10" value="Bug fixes" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="550" y="780" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONRPRywMoTcGoixCnWw0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="ONRPRywMoTcGoixCnWw0-11" target="ONRPRywMoTcGoixCnWw0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ONRPRywMoTcGoixCnWw0-11" value="PATCH" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="140" y="780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
