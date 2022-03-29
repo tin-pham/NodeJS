@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T10:45:58.726Z" agent="5.0 (X11)" etag="YtUNyh715LrdsKf0Eq4B" version="17.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-29T11:09:28.647Z" agent="5.0 (X11)" etag="s73HhM4VH8-wOAex13zT" version="17.2.4" type="github" pages="5">
   <diagram id="1BECWVMC1xA9X7_K1km2" name="What is package">
     <mxGraphModel dx="2248" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -168,6 +168,15 @@
         </mxCell>
         <mxCell id="g1ZpQs9GnC6ch91K7_TI-10" value="If some package that need it, so use it together!!!" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="420" y="620" width="610" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g1ZpQs9GnC6ch91K7_TI-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="g1ZpQs9GnC6ch91K7_TI-12" target="g1ZpQs9GnC6ch91K7_TI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1ZpQs9GnC6ch91K7_TI-12" value="npm install" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="890" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g1ZpQs9GnC6ch91K7_TI-13" value="You don&#39;t need to share the node_modules to other, just give them package.json and run &#39;npm install&#39; it will have all the stuff" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="880" width="610" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
