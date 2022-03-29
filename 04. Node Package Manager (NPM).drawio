@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T10:16:33.085Z" agent="5.0 (X11)" etag="iyNjQ5WSay53Z-gT54SE" version="17.2.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-29T10:32:06.491Z" agent="5.0 (X11)" etag="e_TpsW9RsKPXP3w5l3B5" version="17.2.4" type="github" pages="5">
   <diagram id="1BECWVMC1xA9X7_K1km2" name="What is package">
     <mxGraphModel dx="2248" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -133,6 +133,23 @@
         </mxCell>
         <mxCell id="C3dMsrVpYH6VV14bPP8m-7" value="Help you run command that do something with current program faster, you don&#39;t need to type the whole thing by yourself" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="C3dMsrVpYH6VV14bPP8m-9">
           <mxGeometry y="140" width="330" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UU_cqaEGTmqXaZS5XK_l" name="node_modules">
+    <mxGraphModel dx="2248" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g1ZpQs9GnC6ch91K7_TI-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" edge="1" parent="1" source="g1ZpQs9GnC6ch91K7_TI-3" target="g1ZpQs9GnC6ch91K7_TI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1ZpQs9GnC6ch91K7_TI-3" value="Why these have some weird package that we haven&#39;t install " style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="200" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g1ZpQs9GnC6ch91K7_TI-4" value="A dependency can depend on other package, so it recursively install all the thing it need" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="610" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
