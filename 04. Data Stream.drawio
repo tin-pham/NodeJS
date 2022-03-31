@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T02:42:48.492Z" agent="5.0 (X11)" etag="hCUG9OM7G4bJS7vxyvCj" version="17.2.5" type="github"><diagram id="hE01IFop1IBD-DR0Vh8y" name="Data Stream">5VbbcpswEP0aP8aDcYibR19CMtOkTcczTdo3GQQoESwjFl/69d1Fwpg4zjTTPHSmLyCdvWi150gwGM/z7bURZXYHsdQD34u3g/Fi4Pujy8sJvRjZOcSbjC2SGhU7rAOW6pdsHR1aq1hWPUcE0KjKPhhBUcgIe5gwBjZ9twR0f9VSpPIIWEZCH6MPKsbMop8Cr8NvpEqzduWR5yy5aJ0dUGUihs0BNL4ajOcGAO0o386l5u61fbFx4QnrvjAjC/yTgK8/wofF/XUxfah+br5/Gt18+Xx/5tssa6Frt2FXLO7aDlDdJQ9V3rRqtpYGFTXoVqykvodKoYKC7CtAhJwcNBtmInpODdRFPAcNhuyxTESt8SDDVKuUIxFKQkVVWgITtZVU86xZcNqiXovQOENk+qe8WT9Uwx2qPB1GtLofrhU9rvVuFYZ3j4/5N5rlYmtk5dYfPpUppXL7pkrk9mRDR3uaSOAScolmRy4uwJ84Zp22/VYUm04oQct+diAS/9KdAeHEme5zd/xx3ZbCd9B5ccSejEnObgoGM0ihEPqqQ2cNSdzwpsWdzy0wLYsRgU8ScefOpqgRCMow186aQIGhyJXmPswhTyiHEM6whNpEHWd+wKwFzBs92KEapgCplqJUlaWQDFHVuIaJTUvD48S2HD/Yk8lbfZtK6kxbzqkOnrs7RphU4ht+wevSMFILVOt+HR9O8/nRqV0IFBxVWVFzKZq3MPDnza5ZlTTxCklM8xXKDyOKKpGG49CWydIxUhAJ3opzyDU3kN65QmTPF+rqa2eTKZTLUjQN3tAH4d/UyV8d+hdnPpgcn/lx8MqZH7UftA8XQ3BSDMUhn400iJtnvkIdvey1qhOrAWIvylqdRKKwbal4hpncS2JVK41nTe4c4lqzHUzjpExsg3B3YP3vJRO81MxFcPyd8F7TjP9+zdC0+6VobAd/ZuOr3w==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-31T02:45:02.258Z" agent="5.0 (X11)" etag="gcrjEvxyhP1Eq2F3vEBH" version="17.2.5" type="github">
+  <diagram id="hE01IFop1IBD-DR0Vh8y" name="Data Stream">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OYFWDPGnAWsZwV81HNKP-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.ytimg.com/vi/GlybFFMXXmQ/maxresdefault.jpg;" parent="1" vertex="1">
+          <mxGeometry x="270" y="250" width="520" height="293" as="geometry" />
+        </mxCell>
+        <mxCell id="OYFWDPGnAWsZwV81HNKP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="1" source="OYFWDPGnAWsZwV81HNKP-4" target="OYFWDPGnAWsZwV81HNKP-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYFWDPGnAWsZwV81HNKP-4" value="Data is very large, so we need to transfer it as stream by &lt;b&gt;event emitter&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="70" y="570" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OYFWDPGnAWsZwV81HNKP-5" value="Data in stream is package by a buffer which we can parse them by built-in module or third party module" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="570" y="565" width="500" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
