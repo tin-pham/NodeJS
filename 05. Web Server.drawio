@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T11:19:54.140Z" agent="5.0 (X11)" etag="oD_JMHEeRc4g6foJQY6w" version="17.2.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-31T11:31:37.643Z" agent="5.0 (X11)" etag="V6-p-vn63UU9LSFypmpR" version="17.2.5" type="github" pages="4">
   <diagram id="IvQGnifi0J3bdMdqEuw9" name="Web Server">
     <mxGraphModel dx="3731" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -345,6 +345,68 @@
         </mxCell>
         <mxCell id="d53p4O05reC8DE7P0sEE-17" value="200" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="1170" y="2410" width="520" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WBzLiRW05gEyukIgCXi8" name="Status Code">
+    <mxGraphModel dx="1422" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="260" width="460" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-4" value="" style="group" vertex="1" connectable="0" parent="qSfx9CcVGTwKEblvgV3Q-13">
+          <mxGeometry y="40" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-1" value="100" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fillColor=default;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-4">
+          <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-2" value="Everything is ok so far, just continue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-4">
+          <mxGeometry y="140" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-9" value="Continue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-4">
+          <mxGeometry x="345" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-3" value="Information Response " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fontStyle=1" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-13">
+          <mxGeometry x="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-10" value="You not gonna see this much, this mostly use in library and browser" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-13">
+          <mxGeometry x="70" y="240" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="670" y="150" width="460" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-15" value="" style="group" vertex="1" connectable="0" parent="qSfx9CcVGTwKEblvgV3Q-14">
+          <mxGeometry y="40" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-16" value="200" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fillColor=default;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-15">
+          <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-17" value="Request succeeded and response is available" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-15">
+          <mxGeometry y="140" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-18" value="OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-15">
+          <mxGeometry x="300" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1160" y="150" width="460" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-22" value="" style="group" vertex="1" connectable="0" parent="qSfx9CcVGTwKEblvgV3Q-21">
+          <mxGeometry y="40" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-23" value="201" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fillColor=default;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-22">
+          <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-24" value="Submitting resource to the server by POST and PUT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-22">
+          <mxGeometry y="140" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-25" value="Created" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-22">
+          <mxGeometry x="345" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-19" value="Successful" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1100" y="100" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
