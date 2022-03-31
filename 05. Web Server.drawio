@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T11:31:37.643Z" agent="5.0 (X11)" etag="V6-p-vn63UU9LSFypmpR" version="17.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-31T11:40:00.976Z" agent="5.0 (X11)" etag="xoL9JFU16egZo0RtOJAz" version="17.2.5" type="github" pages="4">
   <diagram id="IvQGnifi0J3bdMdqEuw9" name="Web Server">
     <mxGraphModel dx="3731" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -350,12 +350,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WBzLiRW05gEyukIgCXi8" name="Status Code">
-    <mxGraphModel dx="1422" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3220" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qSfx9CcVGTwKEblvgV3Q-13" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="50" y="260" width="460" height="420" as="geometry" />
+          <mxGeometry x="-110" y="80" width="460" height="420" as="geometry" />
         </mxCell>
         <mxCell id="qSfx9CcVGTwKEblvgV3Q-4" value="" style="group" vertex="1" connectable="0" parent="qSfx9CcVGTwKEblvgV3Q-13">
           <mxGeometry y="40" width="460" height="170" as="geometry" />
@@ -372,7 +372,7 @@
         <mxCell id="qSfx9CcVGTwKEblvgV3Q-3" value="Information Response " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fontStyle=1" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-13">
           <mxGeometry x="200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qSfx9CcVGTwKEblvgV3Q-10" value="You not gonna see this much, this mostly use in library and browser" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-13">
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-10" value="You not gonna see this much, this mostly use in library and browser" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-13">
           <mxGeometry x="70" y="240" width="340" height="180" as="geometry" />
         </mxCell>
         <mxCell id="qSfx9CcVGTwKEblvgV3Q-14" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -407,6 +407,81 @@
         </mxCell>
         <mxCell id="qSfx9CcVGTwKEblvgV3Q-19" value="Successful" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1100" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-30" value="Redirection " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="365" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="650" width="460" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-32" value="" style="group" vertex="1" connectable="0" parent="qSfx9CcVGTwKEblvgV3Q-31">
+          <mxGeometry y="40" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-33" value="301" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fillColor=default;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-32">
+          <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-34" value="The URL have been changed, the new URL in the response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-32">
+          <mxGeometry y="140" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-35" value="Moved Permanently" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-32">
+          <mxGeometry x="300" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-41" value="Client Error Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1275" y="610" width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1020" y="660" width="460" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-43" value="" style="group" vertex="1" connectable="0" parent="qSfx9CcVGTwKEblvgV3Q-42">
+          <mxGeometry y="40" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-44" value="400" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fillColor=default;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-43">
+          <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-45" value="The request input was not correct, but URL exist " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-43">
+          <mxGeometry y="140" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-46" value="Bad Request" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-43">
+          <mxGeometry x="300" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-47" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1470" y="660" width="460" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-48" value="" style="group" vertex="1" connectable="0" parent="qSfx9CcVGTwKEblvgV3Q-47">
+          <mxGeometry y="40" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-49" value="401" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fillColor=default;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-48">
+          <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-50" value="You are not &lt;b&gt;authenticated&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-48">
+          <mxGeometry y="140" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-51" value="Unauthorized" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-48">
+          <mxGeometry x="300" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-52" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1230" y="910" width="460" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-53" value="" style="group" vertex="1" connectable="0" parent="qSfx9CcVGTwKEblvgV3Q-52">
+          <mxGeometry y="40" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-54" value="403" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fillColor=default;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-53">
+          <mxGeometry x="-40" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-55" value="I know who you are, but you not allow to access data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-53">
+          <mxGeometry x="-210" y="180" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-56" value="Forbidden" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-53">
+          <mxGeometry x="90" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-57" value="404" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-58" value="URL that does not exist" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1130" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-59" value="Not Found" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="1055" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
