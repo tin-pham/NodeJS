@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T06:00:13.484Z" agent="5.0 (X11)" etag="pFbFfKkdUPQfpxftZfCu" version="17.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T10:40:18.718Z" agent="5.0 (X11)" etag="ElqbKJYa-2Y1W9C2y3Cv" version="17.2.5" type="github">
   <diagram id="IvQGnifi0J3bdMdqEuw9" name="Page-1">
     <mxGraphModel dx="3731" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -195,6 +195,9 @@
         </mxCell>
         <mxCell id="KJBLr3JR-Cy8SsKP5vhZ-69" value="194.48.91.02:3000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-680" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJBLr3JR-Cy8SsKP5vhZ-71" value="IP Address is like the address of the house, the port like the room" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="760" width="350" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
