@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T10:48:58.699Z" agent="5.0 (X11)" etag="_P2pBcB1SA640-s58-rB" version="17.2.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-31T10:49:08.010Z" agent="5.0 (X11)" etag="xXTiUA7v8n5kbzl3iiWz" version="17.2.5" type="github" pages="3">
   <diagram id="IvQGnifi0J3bdMdqEuw9" name="Web Server">
     <mxGraphModel dx="3731" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -274,7 +274,7 @@
         <mxCell id="03_9bJRk9XfsjWClaVF--1" value="Application Programming Interface " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="20" y="300" width="850" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="03_9bJRk9XfsjWClaVF--2" value="How two application talk to each other (browser and server)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="03_9bJRk9XfsjWClaVF--2" value="How two application talk to each other (browser and server)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="290" y="370" width="295" height="30" as="geometry" />
         </mxCell>
       </root>
