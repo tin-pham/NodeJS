@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T11:40:00.976Z" agent="5.0 (X11)" etag="xoL9JFU16egZo0RtOJAz" version="17.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-31T12:13:08.668Z" agent="5.0 (X11)" etag="wvKhqXUhtXgakq9wdTo4" version="17.2.5" type="github" pages="4">
   <diagram id="IvQGnifi0J3bdMdqEuw9" name="Web Server">
     <mxGraphModel dx="3731" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -426,7 +426,7 @@
         <mxCell id="qSfx9CcVGTwKEblvgV3Q-35" value="Moved Permanently" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-32">
           <mxGeometry x="300" y="65" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qSfx9CcVGTwKEblvgV3Q-41" value="Client Error Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-41" value="Client Error Responses" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1275" y="610" width="630" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qSfx9CcVGTwKEblvgV3Q-42" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -482,6 +482,24 @@
         </mxCell>
         <mxCell id="qSfx9CcVGTwKEblvgV3Q-59" value="Not Found" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1820" y="1055" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-60" value="Server Error Responses" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="690" y="1320" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-61" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="550" y="1330" width="460" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-62" value="" style="group" vertex="1" connectable="0" parent="qSfx9CcVGTwKEblvgV3Q-61">
+          <mxGeometry y="40" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-63" value="500" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#000000;fillColor=default;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-62">
+          <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-64" value="Server have crashed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#000000;fontStyle=2" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-62">
+          <mxGeometry y="140" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfx9CcVGTwKEblvgV3Q-65" value="Internal Server Error" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontColor=#000000;" vertex="1" parent="qSfx9CcVGTwKEblvgV3Q-62">
+          <mxGeometry x="300" y="65" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
