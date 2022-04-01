@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T10:35:00.630Z" agent="5.0 (X11)" etag="zQiMkCxWHk9iz8tit3pN" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T10:38:40.860Z" agent="5.0 (X11)" etag="K5rnEXTxQDmLNYub_8xY" version="17.4.0" type="github" pages="2">
   <diagram id="EBS8yE9UCGTuOSnyxT1s" name="Introduction">
     <mxGraphModel dx="1398" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12,6 +12,17 @@
         </mxCell>
         <mxCell id="-wInNyCDvnblk8jcAMzC-4" value="These functionality is maintain by community" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="110" y="740" width="522" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HYmZmmprcDlihU3AZgr4" name="server.js">
+    <mxGraphModel dx="1398" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rgW3D4wvBPcEMxX5e0Z8-1" value="server.js is what node built-in, if we run npm start it will implicit node server.js without you specify it in package.json" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="165" y="360" width="520" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
