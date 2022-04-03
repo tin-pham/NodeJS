@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T07:17:47.275Z" agent="5.0 (X11)" etag="0cHxKac5IDoP3c0zqSMB" version="17.4.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-04-03T07:26:04.323Z" agent="5.0 (X11)" etag="2KuKxzswvHbgRV0U05Bk" version="17.4.0" type="github" pages="11">
   <diagram id="EBS8yE9UCGTuOSnyxT1s" name="Introduction">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -303,6 +303,23 @@
         </mxCell>
         <mxCell id="Qlgc0LDjww3yFrDw0iaB-4" value="Why not just &#39;/public&#39;, well in the window it use the &#39;\&#39;, and Mac/Linux use &#39;/&#39; so the path module will help you combine these thing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="1490" y="320" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GFsh4nNAnV8IfrBwE7Tr-1" value="Serve static file is not RESTful, but it fine, your application can&amp;nbsp; have some static file, but it best to serve static file through &lt;i&gt;&lt;b&gt;Content Delivery Network&lt;/b&gt;&lt;/i&gt; &lt;i&gt;&lt;b&gt;(CDN)&lt;/b&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="880" width="540" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="emYjbna379lPM_ns7hKx" name="Template Engine">
+    <mxGraphModel dx="1422" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HXDc5iDxN4qAz21zLilc-1" value="Template Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HXDc5iDxN4qAz21zLilc-2" value="Serve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="395" y="340" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
