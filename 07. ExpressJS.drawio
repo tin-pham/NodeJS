@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T06:00:21.501Z" agent="5.0 (X11)" etag="ugdZPYoMwonIO-N7Cwh0" version="17.4.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-04-03T06:00:52.362Z" agent="5.0 (X11)" etag="OXO7PVAJwM7uff42PAev" version="17.4.0" type="github" pages="10">
   <diagram id="EBS8yE9UCGTuOSnyxT1s" name="Introduction">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -254,6 +254,17 @@
         <mxCell id="49Mezj5vmwr3_lPLXP4U-18" value="We call those function in the URL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="940" y="1220" width="450" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="j3zcMLaaE_pq-qVttADO-1" value="CRUD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="880" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qYh_-7kP9Ds5XZPchzzR" name="CRUD">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
