@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T02:44:24.300Z" agent="5.0 (X11)" etag="xto07bOjC40-0Fc2lKiU" version="17.4.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-04-03T02:45:47.397Z" agent="5.0 (X11)" etag="fo4Xie05oCOKCq4u4kWL" version="17.4.0" type="github" pages="9">
   <diagram id="EBS8yE9UCGTuOSnyxT1s" name="Introduction">
     <mxGraphModel dx="1422" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -214,6 +214,12 @@
         </mxCell>
         <mxCell id="BCrmlDpk43Et6HXiIQQO-20" value="PUT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="BCrmlDpk43Et6HXiIQQO-18">
           <mxGeometry x="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCrmlDpk43Et6HXiIQQO-21" value="Client and server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="820" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCrmlDpk43Et6HXiIQQO-22" value="Client display data to the user, allow them to action, and sent that to the server and send it back to the client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="-125" y="930" width="450" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
