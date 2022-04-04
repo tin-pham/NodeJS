@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-04T06:59:08.610Z" agent="5.0 (X11)" etag="CoM8k0ahLPgRkIj_6laQ" version="17.4.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-04-04T07:14:32.689Z" agent="5.0 (X11)" etag="_DZWhmo6YDj0vupu6h2Z" version="17.4.0" type="github" pages="11">
   <diagram id="EBS8yE9UCGTuOSnyxT1s" name="Introduction">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -311,7 +311,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="emYjbna379lPM_ns7hKx" name="Template Engine">
-    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -326,35 +326,6 @@
         </mxCell>
         <mxCell id="7NF3m0sJmks41GSO2N3v-4" value="Partial" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
           <mxGeometry x="510" y="420" width="170" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="8Mv0X5bM3WC4mwzGHEC0" name="Client Side vs. Server Side Rendering">
-    <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="3pAAt0FfbWP2gB3ob2uQ-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.clariontech.com/hubfs/Server.vs.Client.png;" vertex="1" parent="1">
-          <mxGeometry x="165" y="200" width="520" height="315" as="geometry" />
-        </mxCell>
-        <mxCell id="3pAAt0FfbWP2gB3ob2uQ-6" value="Server Side Rendering" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-40" y="560" width="480" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3pAAt0FfbWP2gB3ob2uQ-8" value="The render will do in the server, so the client just get it =&amp;gt; Better SEO" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="610" width="510" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="3pAAt0FfbWP2gB3ob2uQ-9" value="Frequently reload the page" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="730" width="510" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="3pAAt0FfbWP2gB3ob2uQ-10" value="Client Side Rendering" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="540" y="560" width="480" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3pAAt0FfbWP2gB3ob2uQ-11" value="The page is smooth and faster, don&#39;t need to load between route" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="540" y="610" width="510" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="3pAAt0FfbWP2gB3ob2uQ-12" value="The bundle is heavy, the initial load more time" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="540" y="730" width="510" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
