@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-04T06:54:33.750Z" agent="5.0 (X11)" etag="Wqsyj1PGHiNJxi1XeU2x" version="17.4.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-04-04T06:55:32.351Z" agent="5.0 (X11)" etag="qIdmIrVN46KtIGOfB3Ny" version="17.4.0" type="github" pages="12">
   <diagram id="EBS8yE9UCGTuOSnyxT1s" name="Introduction">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -330,11 +330,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="8Mv0X5bM3WC4mwzGHEC0" name="Page-12">
+  <diagram id="8Mv0X5bM3WC4mwzGHEC0" name="Client Side vs. Server Side Rendering">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3pAAt0FfbWP2gB3ob2uQ-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.clariontech.com/hubfs/Server.vs.Client.png;" vertex="1" parent="1">
+          <mxGeometry x="165" y="200" width="520" height="315" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
