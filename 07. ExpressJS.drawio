@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T07:26:49.369Z" agent="5.0 (X11)" etag="tgvd-D08T9Zi4jLI2ZAL" version="17.4.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-04-04T06:54:33.750Z" agent="5.0 (X11)" etag="Wqsyj1PGHiNJxi1XeU2x" version="17.4.0" type="github" pages="12">
   <diagram id="EBS8yE9UCGTuOSnyxT1s" name="Introduction">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -311,16 +311,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="emYjbna379lPM_ns7hKx" name="Template Engine">
-    <mxGraphModel dx="1422" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HXDc5iDxN4qAz21zLilc-1" value="Template Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="HXDc5iDxN4qAz21zLilc-1" value="Template Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="270" y="290" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HXDc5iDxN4qAz21zLilc-2" value="Serve dynamic content base on state on the server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
+        <mxCell id="HXDc5iDxN4qAz21zLilc-2" value="Serve dynamic content base on state on the server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" parent="1" vertex="1">
           <mxGeometry x="270" y="320" width="395" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="7NF3m0sJmks41GSO2N3v-3" value="Layout" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="230" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7NF3m0sJmks41GSO2N3v-4" value="Partial" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8Mv0X5bM3WC4mwzGHEC0" name="Page-12">
+    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
