@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T06:53:42.892Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="-x8C_Vzkn_JUJ6TlgKKM" version="17.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-08T14:04:08.923Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="edn8gDK-oUa0mCzVSs62" version="17.4.1" type="github" pages="4">
   <diagram id="x2hZyT3UO5VZtPUsWrCR" name="Server Side &amp; Client Side Rendering">
     <mxGraphModel dx="1958" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -53,14 +53,25 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OIcJ8yT4d6iuB8Hy3dWU-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://topdev.vn/blog/wp-content/uploads/2021/05/2010s-layered-architecture.png;" vertex="1" parent="1">
+        <mxCell id="OIcJ8yT4d6iuB8Hy3dWU-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://topdev.vn/blog/wp-content/uploads/2021/05/2010s-layered-architecture.png;" parent="1" vertex="1">
           <mxGeometry x="-20" y="150" width="520" height="394" as="geometry" />
         </mxCell>
-        <mxCell id="OIcJ8yT4d6iuB8Hy3dWU-2" value="Layer Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OIcJ8yT4d6iuB8Hy3dWU-2" value="Layer Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="430" y="80" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OIcJ8yT4d6iuB8Hy3dWU-5" value="Each part does its own thing. For instance, if data is present as map, it must have function that return array, the controller which receive data not gonna deal with map -&amp;gt; array" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="OIcJ8yT4d6iuB8Hy3dWU-5" value="Each part does its own thing. For instance, if data is present as map, it must have function that return array, the controller which receive data not gonna deal with map -&amp;gt; array" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="660" y="170" width="420" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ov-XI3KyrQk0JVoQh5vT" name="Diagram ">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kPlqu0EIW6Jn5AugfG7E-1" value="You should draw diagram for your Full Stack application" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="420" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
