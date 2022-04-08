@@ -1,11 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T14:03:38.567Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="wGMM7ISNkdbGowRs5Jxc" version="17.4.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-08T14:12:48.403Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="uukkweaPxVGT8zZNvrbB" version="17.4.1" type="github" pages="5">
   <diagram id="jdtZcn49FabwUTMJG4ij" name="What is testing?">
     <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RYoY74qohc30Qob-Avgg-1" value="Testing is process of checking if the outcome of function/api as expected" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="RYoY74qohc30Qob-Avgg-1" value="Testing is process of checking if the outcome of function/api as expected" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="310" y="160" width="490" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-2" value="Test runner" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-3" value="Find all the tests in the project, run them and return results" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="480" width="415" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-4" value="Test fixtures" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-5" value="How tests are setup and organize" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="590" y="480" width="415" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="137.5" y="600" width="415" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-6" value="Assertions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=1" vertex="1" parent="gjgBCAXSvTlgtCRvS612-8">
+          <mxGeometry x="112.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-7" value="Function that give us the way to test like 5 + 5 .toBe(10)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=2" vertex="1" parent="gjgBCAXSvTlgtCRvS612-8">
+          <mxGeometry y="80" width="415" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="580" y="600" width="415" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-10" value="Mocking" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=1" vertex="1" parent="gjgBCAXSvTlgtCRvS612-9">
+          <mxGeometry x="112.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gjgBCAXSvTlgtCRvS612-11" value="The testing data will not affect the real data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;fontStyle=2" vertex="1" parent="gjgBCAXSvTlgtCRvS612-9">
+          <mxGeometry y="80" width="415" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -15,7 +45,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ThLHzmxq5OqRrMHiBtqI-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.onpathtesting.com/hs-fs/hubfs/agile%20testing%20pyramid%20onpath%20testing%20QA.png?width=7781&amp;name=agile%20testing%20pyramid%20onpath%20testing%20QA.png;" vertex="1" parent="1">
+        <mxCell id="ThLHzmxq5OqRrMHiBtqI-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.onpathtesting.com/hs-fs/hubfs/agile%20testing%20pyramid%20onpath%20testing%20QA.png?width=7781&amp;name=agile%20testing%20pyramid%20onpath%20testing%20QA.png;" parent="1" vertex="1">
           <mxGeometry x="370" y="80" width="520" height="362" as="geometry" />
         </mxCell>
       </root>
@@ -26,7 +56,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eOzW4enRe9gqEzVUQ4Sb-1" value="Write test to test function/method" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="eOzW4enRe9gqEzVUQ4Sb-1" value="Write test to test function/method" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="400" y="240" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
@@ -40,6 +70,14 @@
         <mxCell id="DtlsXICd5b2IdJB9YcAK-1" value="Write test for API request" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="390" y="270" width="300" height="90" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-HE7CU5vdkvMMu5Iw38P" name="Page-5">
+    <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
