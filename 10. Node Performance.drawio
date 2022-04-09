@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T04:10:56.867Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="_BOV8mA7fyjAZ2l9nHQM" version="17.4.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-09T04:14:49.668Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="cdeZ3mrZUnTG0PZq-oHw" version="17.4.1" type="github" pages="4">
   <diagram id="XtxxwsZEFnUDytrK3T5H" name="Blocking code ">
     <mxGraphModel dx="1108" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -121,14 +121,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ESKyDYwUar8xZPEGBZ0Y-1" value="How request being share by multiple processes by &lt;i style=&quot;font-weight: bold&quot;&gt;Round Robin &lt;/i&gt;approach" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="310" y="100" width="490" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="PJLYlW-0VUz521e19UtG-1" value="Load Balancing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=40;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="530" y="270" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="PJLYlW-0VUz521e19UtG-3" value="&lt;span style=&quot;&quot;&gt;Strategy that use the Round Robin approach&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="720" y="230" width="340" height="100" as="geometry" />
         </mxCell>
         <mxCell id="PJLYlW-0VUz521e19UtG-4" value="Dividing the set of task to a set of resources" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="390" y="360" width="330" height="30" as="geometry" />
@@ -159,6 +153,24 @@
         </mxCell>
         <mxCell id="PJLYlW-0VUz521e19UtG-14" value="cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=3" vertex="1" parent="1">
           <mxGeometry x="1435" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3P62ZaDdnXClJe9VYS5Z-3" value="Approach to divide task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=45;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="890" y="1170" width="860" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3P62ZaDdnXClJe9VYS5Z-4" value="Round-Robin" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1260" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3P62ZaDdnXClJe9VYS5Z-5" value="Randomized static" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1270" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3P62ZaDdnXClJe9VYS5Z-6" value="Go 1,2,3,4 divide for each processes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1350" width="325" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3P62ZaDdnXClJe9VYS5Z-7" value="Choose random" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1302.5" y="1340" width="325" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3P62ZaDdnXClJe9VYS5Z-8" value="cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="1085" y="1420" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
