@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T08:31:29.052Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="vR8iKflgtDtJNBOf2Lub" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T08:46:03.697Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="p77TnGK_-TzsgWcSBYZ5" version="17.4.3" type="github" pages="2">
   <diagram id="-l_C1YLMKgaKvBiIjrVL" name="Introductions">
     <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,6 +15,77 @@
         </mxCell>
         <mxCell id="iEgKUgl3xyPsToWbxbVG-6" value="audit npm packages" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="260" y="370" width="420" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ITBzsPBDTOLUxUhsnLtF" name="HTTPs with SSL &amp; TLS">
+    <mxGraphModel dx="1304" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;endWidth=71.66666666666667;endSize=46.900000000000006;width=200;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="886.11" y="260" as="sourcePoint" />
+            <mxPoint x="1213.8899999999999" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="190" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-1" value="HTTPs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#4D4D4D;" vertex="1" parent="NqB4ZXlrP7ImmU90D5Ix-6">
+          <mxGeometry x="170" y="-10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-2" value="Secure version of HTTP, this juse HTTP with SSL/TLS wrap around&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2;fontColor=#4D4D4D;" vertex="1" parent="NqB4ZXlrP7ImmU90D5Ix-6">
+          <mxGeometry y="60" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="410" width="1080" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-9" value="Secure Socket Layer - Transport Layer Security give HTTP a shield that will encrypt the data, only domain name and port being expose" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontStyle=2;fontColor=#4D4D4D;" vertex="1" parent="NqB4ZXlrP7ImmU90D5Ix-7">
+          <mxGeometry y="60" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="590" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-10" value="SSL 1.0" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="NqB4ZXlrP7ImmU90D5Ix-14">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-11" value="SSL 2.0" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="NqB4ZXlrP7ImmU90D5Ix-14">
+          <mxGeometry x="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-12" value="SSL 3.0" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="NqB4ZXlrP7ImmU90D5Ix-14">
+          <mxGeometry x="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-13" value="TLS 1.0" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="NqB4ZXlrP7ImmU90D5Ix-14">
+          <mxGeometry x="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-8" value="SSL &amp;amp; TLS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=50;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="289.99888888888887" y="390" width="612.2222222222223" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="220" as="sourcePoint" />
+            <mxPoint x="1150" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-16" value="HTTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="270" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-21" value="HTTPs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="970" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-22" value="TLS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-23" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="NqB4ZXlrP7ImmU90D5Ix-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="160" as="sourcePoint" />
+            <mxPoint x="1050" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NqB4ZXlrP7ImmU90D5Ix-24" value="SSL &amp;amp; TLS is the same, TLS is the lastest version of SSL" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="540" width="490" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
