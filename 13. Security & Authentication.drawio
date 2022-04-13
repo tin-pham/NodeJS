@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T10:42:50.225Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="xDfMyc16Gi_3-mNLRbuK" version="17.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-13T10:44:33.418Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="kawF1aG-wHjEh1ArHZhU" version="17.4.3" type="github" pages="3">
   <diagram id="-l_C1YLMKgaKvBiIjrVL" name="Introductions">
     <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2LUU_MHAxDNPL_aZLqMQ" name="Digital Certificate">
-    <mxGraphModel dx="2866" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5105" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
           <mxGeometry y="110" width="800" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JB_jdXzcUHEH_z5AlZah-11" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-160" y="510" width="800" height="140" as="geometry" />
+          <mxGeometry x="-1790" y="480" width="800" height="140" as="geometry" />
         </mxCell>
         <mxCell id="JB_jdXzcUHEH_z5AlZah-12" value="Man in the Midde Attack" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;fontStyle=1" vertex="1" parent="JB_jdXzcUHEH_z5AlZah-11">
           <mxGeometry x="200" width="360" height="60" as="geometry" />
@@ -144,6 +144,21 @@
         </mxCell>
         <mxCell id="JB_jdXzcUHEH_z5AlZah-15" value="When you access an http protocol website, the browser will warn you that Certificate Authority in not valid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="996" y="640" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JB_jdXzcUHEH_z5AlZah-17" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="540" as="sourcePoint" />
+            <mxPoint x="310" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB_jdXzcUHEH_z5AlZah-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="500" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JB_jdXzcUHEH_z5AlZah-19" value="CA-Signed Certificate" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;fontStyle=1" vertex="1" parent="JB_jdXzcUHEH_z5AlZah-18">
+          <mxGeometry x="110" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JB_jdXzcUHEH_z5AlZah-20" value="Your website have been trusted. Useful in production" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="JB_jdXzcUHEH_z5AlZah-18">
+          <mxGeometry y="90" width="520" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
