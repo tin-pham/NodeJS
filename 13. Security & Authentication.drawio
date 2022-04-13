@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T10:39:35.129Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="ZAUVyy0DvoEPJh8fQkWn" version="17.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-13T10:41:11.493Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.113 Safari/537.36" etag="wXsBaClwEdRq3JyMpGXC" version="17.4.3" type="github" pages="3">
   <diagram id="-l_C1YLMKgaKvBiIjrVL" name="Introductions">
     <mxGraphModel dx="1108" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,12 +95,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sKu33kSK5I6j8SD5c4h1-1" value="Digital Certificate" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-550" y="340" width="300" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sKu33kSK5I6j8SD5c4h1-3" value="Is a stamp to authenticate/verify the genuine of the website we want to get data/access (The website is not fake/scam) the DC is issued/provided by Certificate Authority (CA)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="450" width="800" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="JB_jdXzcUHEH_z5AlZah-4" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-650" y="610" width="520" height="120" as="geometry" />
         </mxCell>
@@ -126,6 +120,24 @@
         </mxCell>
         <mxCell id="JB_jdXzcUHEH_z5AlZah-8" value="Your site must have a domain name to get the DC" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-720" y="870" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JB_jdXzcUHEH_z5AlZah-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-790" y="340" width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sKu33kSK5I6j8SD5c4h1-1" value="Digital Certificate" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;fontStyle=1" vertex="1" parent="JB_jdXzcUHEH_z5AlZah-10">
+          <mxGeometry x="240" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKu33kSK5I6j8SD5c4h1-3" value="Is a stamp to authenticate/verify the genuine of the website we want to get data/access (The website is not fake/scam) the DC is issued/provided by Certificate Authority (CA)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="JB_jdXzcUHEH_z5AlZah-10">
+          <mxGeometry y="110" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JB_jdXzcUHEH_z5AlZah-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-160" y="510" width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JB_jdXzcUHEH_z5AlZah-12" value="Man in the Midde Attack" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;fontStyle=1" vertex="1" parent="JB_jdXzcUHEH_z5AlZah-11">
+          <mxGeometry x="200" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JB_jdXzcUHEH_z5AlZah-13" value="Hacker will wait between request and response to hack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#4D4D4D;" vertex="1" parent="JB_jdXzcUHEH_z5AlZah-11">
+          <mxGeometry y="110" width="800" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
