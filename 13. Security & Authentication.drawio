@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T01:48:16.076Z" agent="5.0 (X11)" etag="9ZRbzOiv3D2DPO0kqJ6P" version="17.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-14T01:48:32.924Z" agent="5.0 (X11)" etag="ReMJnp2mxIp6X_f-NB0u" version="17.4.0" type="github" pages="4">
   <diagram id="-l_C1YLMKgaKvBiIjrVL" name="Introductions">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -164,7 +164,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-QoTWQ--3qGZ7EpwlwKX" name="Authentication &amp; Authorization">
-    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,13 +196,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-1vN2Rwko8ql9y05G5H_-10" value="401 Unauthorized" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
-          <mxGeometry x="360" y="810" width="430" height="70" as="geometry" />
+          <mxGeometry x="-600" y="280" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-1vN2Rwko8ql9y05G5H_-11" value="403 Forbidden" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
-          <mxGeometry x="360" y="970" width="430" height="70" as="geometry" />
+          <mxGeometry x="-607.5" y="530" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-1vN2Rwko8ql9y05G5H_-12" value="This actually mean Unauthenticated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="140" y="900" width="855" height="30" as="geometry" />
+          <mxGeometry x="-820" y="370" width="855" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
