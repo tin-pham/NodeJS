@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T03:41:08.521Z" agent="5.0 (X11)" etag="IHz2c_g83METkB8AQ2FG" version="17.4.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-04-15T04:45:08.912Z" agent="5.0 (X11)" etag="VKsOKM3OCqwpu0bh4_mR" version="17.4.4" type="github" pages="7">
   <diagram id="-l_C1YLMKgaKvBiIjrVL" name="Introductions">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -266,7 +266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_0etmxZ3x67tQPqzPi-6" name="Cookies">
-    <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2248" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,6 +278,12 @@
         </mxCell>
         <mxCell id="gsp8EIZimIW12jPjoncP-3" value="This also track user activities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="230" y="380" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gsp8EIZimIW12jPjoncP-4" value="res.setHeader(&#39;Set-Cookie&#39;, &#39;newUser=true&#39;)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="500" width="655" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gsp8EIZimIW12jPjoncP-5" value="You should use third-party package to manage cookies" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="570" y="490" width="430" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
