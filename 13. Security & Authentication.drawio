@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T11:37:14.500Z" agent="5.0 (X11)" etag="P9zXWgom9jlIf3W4o3eH" version="17.4.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-04-15T11:38:52.883Z" agent="5.0 (X11)" etag="RBqXVpePedM1AWZJSI-S" version="17.4.4" type="github" pages="7">
   <diagram id="-l_C1YLMKgaKvBiIjrVL" name="Introductions">
     <mxGraphModel dx="1398" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -398,7 +398,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GzARlqUuty9T4VR6xYME" name="Json Web Token">
-    <mxGraphModel dx="4393" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3950" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -438,7 +438,7 @@
         <mxCell id="v3TQnomDRrI5ytFfcGZs-10" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="370" y="1180" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="v3TQnomDRrI5ytFfcGZs-11" value="JWT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;" vertex="1" parent="v3TQnomDRrI5ytFfcGZs-10">
+        <mxCell id="v3TQnomDRrI5ytFfcGZs-11" value="&lt;font color=&quot;#FF6666&quot;&gt;J&lt;/font&gt;&lt;font color=&quot;#FF66FF&quot;&gt;W&lt;/font&gt;&lt;font color=&quot;#3399FF&quot;&gt;T&lt;/font&gt; Token" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;fontStyle=1" vertex="1" parent="v3TQnomDRrI5ytFfcGZs-10">
           <mxGeometry x="30" y="30" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="v3TQnomDRrI5ytFfcGZs-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/cartoon-snack/128/cookie-128.png;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;" vertex="1" parent="v3TQnomDRrI5ytFfcGZs-10">
@@ -459,7 +459,7 @@
         <mxCell id="v3TQnomDRrI5ytFfcGZs-17" value="" style="group" vertex="1" connectable="0" parent="v3TQnomDRrI5ytFfcGZs-14">
           <mxGeometry x="90" y="150" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="v3TQnomDRrI5ytFfcGZs-18" value="JWT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;" vertex="1" parent="v3TQnomDRrI5ytFfcGZs-17">
+        <mxCell id="v3TQnomDRrI5ytFfcGZs-18" value="&lt;font color=&quot;#FF6666&quot;&gt;J&lt;/font&gt;&lt;font color=&quot;#FF66FF&quot;&gt;W&lt;/font&gt;&lt;font color=&quot;#3399FF&quot;&gt;T&lt;/font&gt; Token" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;" vertex="1" parent="v3TQnomDRrI5ytFfcGZs-17">
           <mxGeometry x="30" y="30" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="v3TQnomDRrI5ytFfcGZs-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/cartoon-snack/128/cookie-128.png;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=30;" vertex="1" parent="v3TQnomDRrI5ytFfcGZs-17">
@@ -564,8 +564,11 @@
         <mxCell id="v3TQnomDRrI5ytFfcGZs-57" value="After create a signature, it add that sign to the end of Header and Payloads" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=25;fontColor=#808080;" vertex="1" parent="1">
           <mxGeometry x="2285" y="1530" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="v3TQnomDRrI5ytFfcGZs-59" value="&lt;font color=&quot;#FF6666&quot;&gt;Headers.&lt;/font&gt;&lt;font color=&quot;#FF66FF&quot;&gt;Payloads.&lt;/font&gt;&lt;font color=&quot;#3399FF&quot;&gt;Signature&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;" vertex="1" parent="1">
+        <mxCell id="v3TQnomDRrI5ytFfcGZs-59" value="&lt;font color=&quot;#FF6666&quot;&gt;Headers.&lt;/font&gt;&lt;font color=&quot;#FF66FF&quot;&gt;Payloads.&lt;/font&gt;&lt;font color=&quot;#3399FF&quot;&gt;Signature&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2210" y="1620" width="600" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v3TQnomDRrI5ytFfcGZs-60" value="&lt;font color=&quot;#FF6666&quot;&gt;J&lt;/font&gt;&lt;font color=&quot;#FF66FF&quot;&gt;W&lt;/font&gt;&lt;font color=&quot;#3399FF&quot;&gt;T&lt;/font&gt; Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DComfortaa;fontSize=35;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2385" y="1735" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
